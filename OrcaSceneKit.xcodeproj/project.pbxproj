@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C16CFE81A094077001EA939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16CFE71A094077001EA939 /* main.m */; };
+		3C16CFEB1A094077001EA939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16CFEA1A094077001EA939 /* AppDelegate.m */; };
+		3C16CFEE1A094077001EA939 /* ModelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16CFED1A094077001EA939 /* ModelsViewController.m */; };
+		3C16CFF11A094077001EA939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C16CFEF1A094077001EA939 /* Main.storyboard */; };
+		3C16CFF31A094077001EA939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C16CFF21A094077001EA939 /* Images.xcassets */; };
+		3C16CFF61A094077001EA939 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C16CFF41A094077001EA939 /* LaunchScreen.xib */; };
+		3C16D0021A094077001EA939 /* OrcaSceneKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16D0011A094077001EA939 /* OrcaSceneKitTests.m */; };
+		3C16D00D1A0947C2001EA939 /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16D00C1A0947C2001EA939 /* SceneViewController.m */; };
+		3C16D00F1A094915001EA939 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C16D00E1A094914001EA939 /* SceneKit.framework */; };
+		5BE399F51A0A8ABB0044F8D5 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE399F41A0A8ABB0044F8D5 /* Model.m */; };
+		5BE399F71A0A99C30044F8D5 /* models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE399F61A0A99C30044F8D5 /* models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C16CFFC1A094077001EA939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C16CFDA1A094077001EA939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C16CFE11A094077001EA939;
+			remoteInfo = OrcaSceneKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C16CFE21A094077001EA939 /* OrcaSceneKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrcaSceneKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C16CFE61A094077001EA939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C16CFE71A094077001EA939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C16CFE91A094077001EA939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C16CFEA1A094077001EA939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C16CFEC1A094077001EA939 /* ModelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelsViewController.h; sourceTree = "<group>"; };
+		3C16CFED1A094077001EA939 /* ModelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelsViewController.m; sourceTree = "<group>"; };
+		3C16CFF01A094077001EA939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C16CFF21A094077001EA939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C16CFF51A094077001EA939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C16CFFB1A094077001EA939 /* OrcaSceneKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrcaSceneKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C16D0001A094077001EA939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C16D0011A094077001EA939 /* OrcaSceneKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrcaSceneKitTests.m; sourceTree = "<group>"; };
+		3C16D00B1A0947C2001EA939 /* SceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneViewController.h; sourceTree = "<group>"; };
+		3C16D00C1A0947C2001EA939 /* SceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneViewController.m; sourceTree = "<group>"; };
+		3C16D00E1A094914001EA939 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		5BE399F31A0A8ABB0044F8D5 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		5BE399F41A0A8ABB0044F8D5 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		5BE399F61A0A99C30044F8D5 /* models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C16CFDF1A094077001EA939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C16D00F1A094915001EA939 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C16CFF81A094077001EA939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C16CFD91A094077001EA939 = {
+			isa = PBXGroup;
+			children = (
+				3C16D00E1A094914001EA939 /* SceneKit.framework */,
+				3C16CFE41A094077001EA939 /* OrcaSceneKit */,
+				3C16CFFE1A094077001EA939 /* OrcaSceneKitTests */,
+				3C16CFE31A094077001EA939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C16CFE31A094077001EA939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C16CFE21A094077001EA939 /* OrcaSceneKit.app */,
+				3C16CFFB1A094077001EA939 /* OrcaSceneKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C16CFE41A094077001EA939 /* OrcaSceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C16CFE91A094077001EA939 /* AppDelegate.h */,
+				3C16CFEA1A094077001EA939 /* AppDelegate.m */,
+				3C16CFEC1A094077001EA939 /* ModelsViewController.h */,
+				3C16CFED1A094077001EA939 /* ModelsViewController.m */,
+				3C16CFEF1A094077001EA939 /* Main.storyboard */,
+				3C16CFF21A094077001EA939 /* Images.xcassets */,
+				3C16CFF41A094077001EA939 /* LaunchScreen.xib */,
+				3C16CFE51A094077001EA939 /* Supporting Files */,
+				3C16D00B1A0947C2001EA939 /* SceneViewController.h */,
+				3C16D00C1A0947C2001EA939 /* SceneViewController.m */,
+				5BE399F31A0A8ABB0044F8D5 /* Model.h */,
+				5BE399F41A0A8ABB0044F8D5 /* Model.m */,
+				5BE399F61A0A99C30044F8D5 /* models.scnassets */,
+			);
+			path = OrcaSceneKit;
+			sourceTree = "<group>";
+		};
+		3C16CFE51A094077001EA939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C16CFE61A094077001EA939 /* Info.plist */,
+				3C16CFE71A094077001EA939 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C16CFFE1A094077001EA939 /* OrcaSceneKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C16D0011A094077001EA939 /* OrcaSceneKitTests.m */,
+				3C16CFFF1A094077001EA939 /* Supporting Files */,
+			);
+			path = OrcaSceneKitTests;
+			sourceTree = "<group>";
+		};
+		3C16CFFF1A094077001EA939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C16D0001A094077001EA939 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C16CFE11A094077001EA939 /* OrcaSceneKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C16D0051A094077001EA939 /* Build configuration list for PBXNativeTarget "OrcaSceneKit" */;
+			buildPhases = (
+				3C16CFDE1A094077001EA939 /* Sources */,
+				3C16CFDF1A094077001EA939 /* Frameworks */,
+				3C16CFE01A094077001EA939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrcaSceneKit;
+			productName = OrcaSceneKit;
+			productReference = 3C16CFE21A094077001EA939 /* OrcaSceneKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C16CFFA1A094077001EA939 /* OrcaSceneKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C16D0081A094077001EA939 /* Build configuration list for PBXNativeTarget "OrcaSceneKitTests" */;
+			buildPhases = (
+				3C16CFF71A094077001EA939 /* Sources */,
+				3C16CFF81A094077001EA939 /* Frameworks */,
+				3C16CFF91A094077001EA939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C16CFFD1A094077001EA939 /* PBXTargetDependency */,
+			);
+			name = OrcaSceneKitTests;
+			productName = OrcaSceneKitTests;
+			productReference = 3C16CFFB1A094077001EA939 /* OrcaSceneKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C16CFDA1A094077001EA939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = OrcaHealth;
+				TargetAttributes = {
+					3C16CFE11A094077001EA939 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3C16CFFA1A094077001EA939 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3C16CFE11A094077001EA939;
+					};
+				};
+			};
+			buildConfigurationList = 3C16CFDD1A094077001EA939 /* Build configuration list for PBXProject "OrcaSceneKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C16CFD91A094077001EA939;
+			productRefGroup = 3C16CFE31A094077001EA939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C16CFE11A094077001EA939 /* OrcaSceneKit */,
+				3C16CFFA1A094077001EA939 /* OrcaSceneKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C16CFE01A094077001EA939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C16CFF11A094077001EA939 /* Main.storyboard in Resources */,
+				5BE399F71A0A99C30044F8D5 /* models.scnassets in Resources */,
+				3C16CFF61A094077001EA939 /* LaunchScreen.xib in Resources */,
+				3C16CFF31A094077001EA939 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C16CFF91A094077001EA939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C16CFDE1A094077001EA939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C16CFEE1A094077001EA939 /* ModelsViewController.m in Sources */,
+				5BE399F51A0A8ABB0044F8D5 /* Model.m in Sources */,
+				3C16D00D1A0947C2001EA939 /* SceneViewController.m in Sources */,
+				3C16CFEB1A094077001EA939 /* AppDelegate.m in Sources */,
+				3C16CFE81A094077001EA939 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C16CFF71A094077001EA939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C16D0021A094077001EA939 /* OrcaSceneKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C16CFFD1A094077001EA939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C16CFE11A094077001EA939 /* OrcaSceneKit */;
+			targetProxy = 3C16CFFC1A094077001EA939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C16CFEF1A094077001EA939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C16CFF01A094077001EA939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C16CFF41A094077001EA939 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C16CFF51A094077001EA939 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C16D0031A094077001EA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C16D0041A094077001EA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C16D0061A094077001EA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrcaSceneKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C16D0071A094077001EA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrcaSceneKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C16D0091A094077001EA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrcaSceneKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrcaSceneKit.app/OrcaSceneKit";
+			};
+			name = Debug;
+		};
+		3C16D00A1A094077001EA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrcaSceneKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrcaSceneKit.app/OrcaSceneKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C16CFDD1A094077001EA939 /* Build configuration list for PBXProject "OrcaSceneKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C16D0031A094077001EA939 /* Debug */,
+				3C16D0041A094077001EA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C16D0051A094077001EA939 /* Build configuration list for PBXNativeTarget "OrcaSceneKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C16D0061A094077001EA939 /* Debug */,
+				3C16D0071A094077001EA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C16D0081A094077001EA939 /* Build configuration list for PBXNativeTarget "OrcaSceneKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C16D0091A094077001EA939 /* Debug */,
+				3C16D00A1A094077001EA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C16CFDA1A094077001EA939 /* Project object */;
+}
